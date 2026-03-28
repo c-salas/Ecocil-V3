@@ -47,8 +47,19 @@
             font-size: 1.8rem;
             font-weight: 900;
             letter-spacing: 2px;
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
 
+        .logo a{
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        .logo:hover {
+            transform: scale(1.1); /* Aumenta el tamaño un 10% */
+            
+        }
         .logo span { color: var(--primary); }
 
         .nav-links {
@@ -67,7 +78,10 @@
             transition: var(--transition);
         }
 
-        .nav-links a:hover { color: var(--primary); }
+        .nav-links a:hover { 
+            color: var(--primary); 
+            transform: scale(1.1);
+        }
 
         /* --- HERO SECTION --- */
         .hero {

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecocil S.A. | Innovación en Construcción</title>
+	<link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@300;400;600&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html">ECO<span>CIL</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="landing.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+			<li><a href="maquinaria.html">Equipos</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="landing.html">Trabaja con Nosotros</a></li>
+            <li><a href="landing.html">Contacto</a></li>
+        </ul>
+        <a href="landing.html" class="btn" style="padding: 0.6rem 1.5rem; font-size: 0.8rem;">Cotizar</a>
+    </nav>
+
+	<!--nosotros-->
+        <section id="nosotros" class="about-section" style="padding: 100px 0; background-color: #1A1A1A; position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="row" style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; margin-left: 20px; margin-right: 20px;">
+                
+                <div class="about-text" style="flex: 1; min-width: 320px;">
+                    <span style="color: #F5C200; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">Desde 2008</span>
+                    <h2 style="font-size: 2.8rem; color: #fff; margin: 15px 0; line-height: 1.2;">Compromiso con la Excelencia en Terreno</h2>
+                    <div style="width: 50px; height: 3px; background: #F5C200; margin-bottom: 25px;"></div>
+                    
+                    <p style="color: #fff; line-height: 1.8; font-size: 1.1rem; margin-bottom: 20px;">
+                        <strong>ECOCIL Ltda.</strong> nació con la visión de entregar soluciones integrales en el movimiento de tierras y servicios mecanizados. Nuestra trayectoria nos ha consolidado como un socio estratégico para la minería, la agricultura y la construcción en la región.
+                    </p>
+                    <p style="color: #fff; line-height: 1.8; margin-bottom: 30px;">
+                        Nos distinguimos por nuestra capacidad de respuesta operativa, la calidad de nuestra flota y, sobre todo, por un equipo humano altamente capacitado que prioriza la <strong>seguridad</strong> y el <strong>respeto al medio ambiente</strong> en cada proyecto.
+                    </p>
+
+                    <div class="values-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-shield-alt" style="color: #F5C200;"></i>
+                            <span style="font-weight: 600; color: #fff;">Seguridad Laboral</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-leaf" style="color: #F5C200;"></i>
+                            <span style="font-weight: 600; color: #fff;">Cuidado Ambiental</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-award" style="color: #F5C200;"></i>
+                            <span style="font-weight: 600; color: #fff;">Calidad Certificada</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-handshake" style="color: #F5C200;"></i>
+                            <span style="font-weight: 600; color: #fff;">Ética Profesional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats" style="flex: 1; min-width: 320px; position: relative;">
+                    <div style="background: #0A0A0A; padding: 50px; border-radius: 20px; color: #F5C200; box-shadow: 0 20px 40px rgba(0,0,0,0.1); position: relative; z-index: 2;">
+                        <h3 style="color: #F5C200; font-size: 3rem; margin-bottom: 5px;">15+</h3>
+                        <p style="font-size: 1.2rem; margin-bottom: 30px;">Años de Experiencia Continua</p>
+                        
+                        <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px;">
+                            <p style="font-style: italic; opacity: 0.9;">
+                                "En ECOCIL, no solo movemos tierra, construimos el camino hacia el desarrollo de nuestros clientes."
+                            </p>
+                        </div>
+                    </div>
+                    <div style="position: absolute; top: -20px; right: -20px; width: 100%; height: 100%; border: 10px solid #F5C200; border-radius: 20px; z-index: 1;"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+	<!--Footer-->
+
+    <footer style="padding: 40px 5%; border-top: 1px solid #222; text-align: center; background: #050505;">
+        <div class="logo" style="margin-bottom: 1rem;">ECO<span>CIL</span> S.A.</div>
+        <p style="font-size: 0.8rem; color: #555;">© 2026 Empresa Constructora Ecocil S.A. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Función para animar elementos al hacer scroll
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        
+        window.addEventListener("scroll", reveal);
+
+        // Ejecutar una vez al cargar por si hay elementos visibles
+        reveal();
+    </script>
+
+</body>
+</html>
