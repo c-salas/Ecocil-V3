@@ -42,6 +42,8 @@
             border-bottom: 1px solid rgba(245, 194, 0, 0.2);
         }
 
+        
+
         .logo {
             font-family: 'Barlow Condensed', sans-serif;
             font-size: 1.8rem;
@@ -90,7 +92,7 @@
             align-items: center;
             padding: 0 5%;
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                        url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1920&q=80');
+                        url('images/Foto_portada0.jpg');
             background-size: cover;
             background-position: center;
         }
@@ -137,6 +139,7 @@
         .services {
             padding: 100px 5%;
             background: var(--surface);
+    
         }
 
         .section-header {
@@ -199,6 +202,8 @@
         background-color: #0A0A0A; /* Fondo negro profundo */
         color: #FFFFFF;
         font-family: 'Barlow', sans-serif;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('images/fondo_equipos.jpg');
     }
 
     .maquinaria-header {
